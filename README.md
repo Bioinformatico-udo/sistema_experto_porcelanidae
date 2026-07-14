@@ -1,23 +1,24 @@
-🦀 Sistema Experto Híbrido para Identificación de Porcelanidae
+# 🦀 Sistema Experto Híbrido para Identificación de Porcelanidae
 Versión de Python Licencia Estado
 
 Sistema Experto desarrollado como proyecto educativo para la Licenciatura en Informática Universidad de Oriente, Núcleo de Nueva Esparta - Venezuela
 
-📋 Tabla de Contenidos
-📖 Descripción del Proyecto
-🎯 Objetivos Educativos
-🏗️Arquitectura del Sistema
-✨ Características principales
-📊 Especies Soportadas
-🛠️ Tecnologías Utilizadas
-📦 Instalación y configuración
-🚀 Guía de Uso
-📁 Estructura del Proyecto
-👨‍💻 Para Estudiantes (Guía de Aprendizaje)
-🤝 Contribuciones
-📄 Licencia
-📞 Contacto
-📖 Descripción del Proyecto
+## 📋 Tabla de Contenidos
+## 📖 Descripción del Proyecto
+## 🎯 Objetivos Educativos
+## 🏗️Arquitectura del Sistema
+## ✨ Características principales
+## 📊 Especies Soportadas
+## 🛠️ Tecnologías Utilizadas
+## 📦 Instalación y configuración
+## 🚀 Guía de Uso
+## 📁 Estructura del Proyecto
+## 👨‍💻 Para Estudiantes (Guía de Aprendizaje)
+## 🤝 Contribuciones
+## 📄 Licencia
+## 📞 Contacto
+
+## 📖 Descripción del Proyecto
 El Sistema Experto Híbrido para Identificación de Porcelanidae es una aplicación educativa que combina técnicas de Inteligencia Artificial y Sistemas Expertos para la identificación taxonómica de crustáceos de la familia Porcelanidae (cangrejos porcelana).
 
 Este proyecto fue desarrollado como material didáctico para estudiantes de la Licenciatura en Informática de la Universidad de Oriente, Núcleo de Nueva Esparta , con el objetivo de demostrar la aplicación práctica de conceptos de:
@@ -26,13 +27,15 @@ Sistemas Basados ​​en Reglas (Clave Taxonómica)
 Redes Neuronales Artificiales
 Interfaces de Usuario (GUI)
 Manejo de Datos e Imágenes
-🎯 Objetivos Educativos
+
+## 🎯 Objetivos Educativos
 Demostrar la aplicación de sistemas expertos en el mundo real
 Integrar diferentes técnicas de IA en una sola aplicación
 Mostrar el ciclo de vida de un proyecto de software.
 Enseñar buenas prácticas de programación en Python
 Fomentar el interés por la Inteligencia Artificial y la Ciencia de Datos
-🏗️Arquitectura del Sistema
+
+## 🏗️Arquitectura del Sistema
 gráfico TB subgrafo "Frontend" GUI[Interfaz Gráfica Tkinter] Pestañas[Sistema de Pestañas] Imágenes[Visualización de Imágenes] fin
 
 subgraph "Motor de Inferencia"
@@ -57,9 +60,10 @@ NN --> Fichas
 Hybrid --> Rules
 Hybrid --> NN
 Images --> Imagenes
-Componentes Principales
-Componente Descripción Tecnología
-Sistema de Reglas Clave taxonómica dicotómica tradicional Python (Lógica de árbol) Red Neuronal Modelo de clasificación entrenado Scikit-learn (MLPClassifier) ​​Interfaz Gráfica Aplicación de escritorio Tkinter (GUI) Base de Datos Fichas técnicas de especies JSON Manejo de Imágenes Visualización de especies Pillow (PIL) ✨ Características Principales 🔍 Modo Clave Taxonómica (Reglas) Identificación mediante preguntas dicotómicas guiadas
+
+## Componentes Principales
+###Componente Descripción Tecnología
+#### Sistema de Reglas Clave taxonómica dicotómica tradicional Python (Lógica de árbol) Red Neuronal Modelo de clasificación entrenado Scikit-learn (MLPClassifier) ​​Interfaz Gráfica Aplicación de escritorio Tkinter (GUI) Base de Datos Fichas técnicas de especies JSON Manejo de Imágenes Visualización de especies Pillow (PIL) ✨ Características Principales 🔍 Modo Clave Taxonómica (Reglas) Identificación mediante preguntas dicotómicas guiadas
 
 Basado en características morfológicas tradicionales
 
@@ -69,7 +73,7 @@ Ideal para estudiantes sin experiencia previa.
 
 23 especies disponibles
 
-🧠 Modo Red Neuronal (IA) Identificación mediante inteligencia artificial
+#### 🧠 Modo Red Neuronal (IA) Identificación mediante inteligencia artificial
 
 predicción instantánea basada en medidas
 
@@ -79,7 +83,7 @@ Resultados con nivel de confianza
 
 17 especies disponibles
 
-📸 Visualización de Especies Imágenes de cada especie identificada
+## 📸 Visualización de Especies Imágenes de cada especie identificada
 
 Fichas técnicas completas
 
@@ -87,13 +91,13 @@ Taxonomía, distribución y conservación.
 
 Miniaturas en historial y favoritos
 
-📊 Gestión de Resultados Historial completo de identificaciones
+## 📊 Gestión de Resultados Historial completo de identificaciones
 
 Sistema de favoritos
 
 Exportación de resultados
 
-📊 Especies Soportadas Género Petrolisthes (8 especies) Petrolisthes armatus - Cangrejo porcelana armado
+## 📊 Especies Soportadas Género Petrolisthes (8 especies) Petrolisthes armatus - Cangrejo porcelana armado
 
 Petrolisthes tridentatus - Cangrejo porcelana tridentado
 
@@ -139,7 +143,7 @@ Pisidia brasiliensis - Cangrejo porcelana de Brasil
 
 Porcellana sayana - Cangrejo porcelana de Say
 
-🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 Lenguajes y Frameworks Python 3.13 - Lenguaje principal
 
 Tkinter - Interfaz gráfica nativa
@@ -161,7 +165,7 @@ Interacción Humano-Computador: Diseño de GUI
 
 Ingeniería de Software: Estructura modular
 
-📦 Instalación y configuración
+## 📦 Instalación y configuración
 Requisitos Anteriores Python 3.8 o superior
 
 Conexión a Internet (para instalación de dependencias)
@@ -185,7 +189,7 @@ Agregar imágenes con formato: genero_especie.jpg
 
 Ejecutar python verificar_imagenes.py para verificar
 
-🚀 Guía de Uso
+## 🚀 Guía de Uso
 Inicio Rápido Seleccionar Modo: Elige entre "Clave Taxonómica" o "Red Neuronal"
 
 Identificar: Sigue las instrucciones según el modo seleccionado
@@ -203,10 +207,11 @@ El sistema navega por el árbol de decisiones.
 Complete el formulario con medidas
 Haz clic en "Predecir Especie"
 Revisa la predicción y confianza.
-📁 Estructura del Proyecto
+
+## 📁 Estructura del Proyecto
 text sistema_experto_porcelanidae/ ├── data/ │ ├── clave_taxonomica.json # Base de conocimientos taxonómicos │ ├── fichas_tecnicas.json # Fichas técnicas de especies │ ├── dataset_especies.csv # Datos para entrenamiento │ └── dataset_manual.csv # Datos manuales ├── models/ │ ├── sistema_reglas.py # Sistema basado en reglas │ ├── red_neuronal.py # Red neuronal artificial │ └── modelo_entrenado.pkl # Modelo pre-entrenado ├── interfaz de usuario/ │ └── interfaz_grafica.py # Interfaz de usuario ├── utils/ │ ├── config_imagenes.py # Configuración de imágenes │ ├── fichas_tecnicas.py # Gestor de fichas técnicas │ ├── manejador_imagenes.py # Manejador de imágenes │ ├── preprocesamiento.py # Preprocesamiento de datos │ └── visualizacion.py # Visualización de datos ├── imagenes_especies/ # Carpeta de imágenes (opcional) ├── main.py # Punto de entrada ├── setup.py # Script de instalación ├── requisitos.txt # Dependencias └── README.md#Documentación
 
-👨‍💻 Para Estudiantes (Guía de Aprendizaje)
+## 👨‍💻 Para Estudiantes (Guía de Aprendizaje)
 Conceptos Clave a Aprender
 
 Sistemas Basados ​​en Reglas Python
@@ -247,7 +252,7 @@ Implementar exportación a PDF o Excel
 
 Generar informes estadisticos
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 Las contribuciones son bienvenidas para mejorar este proyecto educativo. Por favor:
 
 Fork el repositorio
@@ -274,7 +279,7 @@ Mejorar la documentación
 
 Agregar pruebas unitarias
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
 
 Texto Licencia MIT
@@ -283,14 +288,14 @@ Copyright (c) 2024 José Morillo - Universidad de Oriente
 
 Por la presente se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para utilizar el Software sin restricción alguna...
 
-📞 Contacto
+## 📞 Contacto
 Autor José Morillo
 
-📧 Correo electrónico: bioinformatico.udo@gmail.com
+### 📧 Correo electrónico: bioinformatico.udo@gmail.com
 
-🔗 Portafolio: https://bioinformatico-udo.github.io/portafilio-digital/
+### 🔗 Portafolio: https://bioinformatico-udo.github.io/portafilio-digital/
 
-🎓 Universidad de Oriente, Núcleo de Nueva Esparta
+### 🎓 Universidad de Oriente, Núcleo de Nueva Esparta
 
 Enlaces del Proyecto 📂 Repositorio: https://github.com/tu-usuario/sistema-experto-porcelanidae
 
@@ -306,18 +311,18 @@ A la comunidad de código abierto por las herramientas utilizadas.
 
 A los taxónomos que contribuyeron con la base de conocimientos.
 
-📝 Notas Finales Este proyecto es 100% educativo y está diseñado para demostrar la aplicación práctica de conceptos de Inteligencia Artificial y Sistemas Expertos en un contexto real.
+## 📝 Notas Finales Este proyecto es 100% educativo y está diseñado para demostrar la aplicación práctica de conceptos de Inteligencia Artificial y Sistemas Expertos en un contexto real.
 
 Recursos adicionales para estudiantes 📖 Documentación de Python
 
-📖 Guía del usuario de Scikit-learn
+## 📖 Guía del usuario de Scikit-learn
 
 📖 Documentación de Tkinter
 
 📖 Documentación de la almohada
 
-🦀 ¡Feliz aprendizaje y buen código!
+## 🦀 ¡Feliz aprendizaje y buen código!
 
 "El conocimiento es la base de toda inteligencia, sea natural o artificial."
 
-⭐ Si este proyecto te ha sido útil, ¡no olvides darle una estrella en GitHub!
+## ⭐ Si este proyecto te ha sido útil, ¡no olvides darle una estrella en GitHub!
