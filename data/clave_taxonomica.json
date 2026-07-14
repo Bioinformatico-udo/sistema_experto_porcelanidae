@@ -1,0 +1,120 @@
+{
+    "clave_porcelanidae": {
+        "pregunta_1": {
+            "texto": "Artejo basal de la antena corto, no alcanza el margen anterior del caparazón, segmentos móviles con libre acceso a la órbita",
+            "si": "pregunta_2",
+            "no": "pregunta_17"
+        },
+        "pregunta_2": {
+            "texto": "Porciones posteriores de la pared del caparazón ausentes, o constituidas por una o más placas pequeñas, separadas por espacios membranosos",
+            "si": "pregunta_3",
+            "no": "genero_petrolisthes"
+        },
+        "pregunta_3": {
+            "texto": "Caparazón con paredes laterales incompletas, la porción posterior del área epibranquial o mesobranquial ocupada por una membrana",
+            "si": "pregunta_4",
+            "no": "pregunta_6"
+        },
+        "pregunta_4": {
+            "texto": "Quelípedos con la superficie dorsal cubierta por gránulos y/o tubérculos",
+            "si": "pregunta_5",
+            "no": "Neopisosoma_cf_neglectum"
+        },
+        "pregunta_5": {
+            "texto": "Quelípedos con la superficie dorsal cubiertos por gránulos y tubérculos cónicos; setas escasas y dispersas",
+            "si": "Neopisosoma_angustifrons",
+            "no": "Neopisosoma_orientale"
+        },
+        "pregunta_6": {
+            "texto": "Quelípedos aplanados, subiguales. Frente avanzada y trilobulada en vista dorsal. Telson con 5 piezas",
+            "si": "Clastotoechus_nodosus",
+            "no": "genero_pachycheles"
+        },
+        "genero_pachycheles": {
+            "pregunta_7": {
+                "texto": "Telson compuesto por siete piezas",
+                "si": "Pachycheles_serratus",
+                "no": "pregunta_8"
+            },
+            "pregunta_8": {
+                "texto": "Frente con la porción media más avanzada que los ángulos orbitales internos y cubierta de setas",
+                "si": "Pachycheles_monilifer",
+                "no": "pregunta_9"
+            },
+            "pregunta_9": {
+                "texto": "Carpo de los quelípedos lisos, sin gránulos ni tubérculos. Frente sinuosa en vista dorsal",
+                "si": "Pachycheles_riseii",
+                "no": "Pachycheles_ackleianus"
+            }
+        },
+        "genero_petrolisthes": {
+            "pregunta_10": {
+                "texto": "Carpo de los quelípedos entero",
+                "si": "pregunta_11",
+                "no": "pregunta_12"
+            },
+            "pregunta_11": {
+                "texto": "Frente con un diente lobuliforme evidente en los ángulos orbitales internos",
+                "si": "Petrolisthes_tridentatus",
+                "no": "Petrolisthes_tonsorius"
+            },
+            "pregunta_12": {
+                "texto": "Telson constituido por cinco piezas",
+                "si": "Petrolisthes_jugosus",
+                "no": "pregunta_13"
+            },
+            "pregunta_13": {
+                "texto": "Espina epibranquial ausente",
+                "si": "pregunta_14",
+                "no": "pregunta_15"
+            },
+            "pregunta_14": {
+                "texto": "Margen flexor del carpo de los quelípedos con tres dientes subiguales, equidistantes",
+                "si": "Petrolisthes_politus",
+                "no": "Petrolisthes_lewisi"
+            },
+            "pregunta_15": {
+                "texto": "Margen flexor del carpo de los quelípedos con tres dientes separados",
+                "si": "Petrolisthes_armatus",
+                "no": "pregunta_16"
+            },
+            "pregunta_16": {
+                "texto": "Caparazón áspero, con estrías pilíferas transversas prominentes",
+                "si": "Petrolisthes_galathinus",
+                "no": "Petrolisthes_marginatus"
+            }
+        },
+        "pregunta_17": {
+            "texto": "Artejos móviles de la antena muy pequeños, flagelo rudimentario. Caparazón 1,3 veces más largo que ancho",
+            "si": "Minyocerus_angustus",
+            "no": "pregunta_18"
+        },
+        "pregunta_18": {
+            "texto": "Caparazón tan largo como ancho. Frente inclinada, redondeada triangular o débilmente trilobulada",
+            "si": "genero_megalobrachium",
+            "no": "pregunta_22"
+        },
+        "genero_megalobrachium": {
+            "pregunta_19": {
+                "texto": "Telson constituido por cinco placas",
+                "si": "Megalobrachium_soriatum",
+                "no": "pregunta_20"
+            },
+            "pregunta_20": {
+                "texto": "Caparazón y quelípedos fuertemente erosionados, margen flexor del carpo con protuberancia truncada",
+                "si": "Megalobrachium_mortenseni",
+                "no": "pregunta_21"
+            },
+            "pregunta_21": {
+                "texto": "Caparazón y quelípedos con setas abundantes",
+                "si": "Megalobrachium_poeyi",
+                "no": "Megalobrachium_roseum"
+            }
+        },
+        "pregunta_22": {
+            "texto": "Márgenes laterales del caparazón con una serie de espínulas posteriores al ángulo epibranquial",
+            "si": "Pisidia_brasiliensis",
+            "no": "Porcellana_sayana"
+        }
+    }
+}
